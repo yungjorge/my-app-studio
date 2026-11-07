@@ -22,11 +22,11 @@
       {% if features.accounts %}
         <a href="/dashboard">Member space</a>
         {% if not current_user %}<a href="/login">Log in</a>{% endif %}
-      {% else %}<a href="/#next">What comes next</a>{% endif %}
+      {% else %}<a href="/#next">Get started</a>{% endif %}
       {% if features.roles and current_user and current_user.role == "admin" %}<a href="/admin">Admin</a>{% endif %}
     </nav>
   </header>
   <main id="main" class="wrap" tabindex="-1">{% block content %}{% endblock %}</main>
-  <footer class="site-footer wrap"><span>{{ brand.name }}</span><span>A small project, built thoughtfully.</span></footer>
+  <footer class="site-footer wrap"><span>{{ brand.name }}</span><span>A workspace for personal projects.</span></footer>
 </body>
 </html>
