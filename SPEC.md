@@ -25,3 +25,4 @@ StudioFlow serves students and developers managing personal projects. The Creato
 - Local evidence — Both `python studio.py check --lesson APP-003` and `python studio.py check` passed with Black, Pylint, 96 foundation tests, 18 cumulative contracts, and two real Chromium tests. Direct API requests confirm 403 → 200 → 403 across CLI promotion and demotion.
 - Responsive verification — Additional Chromium smoke checks at 1440, 390, and 320 px showed no horizontal overflow on the homepage, signup, login, dashboard, denial, and admin views. These are AI-run observations. Learner observations are pending.
 - [Issue #5](https://github.com/yungjorge/my-app-studio/issues/5) · Branch `app-003-enforce-roles`.
+- [Pull request #6](https://github.com/yungjorge/my-app-studio/pull/6).
