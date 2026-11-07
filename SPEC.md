@@ -16,3 +16,4 @@ StudioFlow serves students and developers managing personal projects. The Creato
 - Acceptance — Signup creates a member with an Argon2id hash. A live signed, expiring session in an HttpOnly cookie unlocks the dashboard and changes `GET /api/me` from 401 to 200. CSRF checks guard mutations. Logout revokes the server session and rejects replay.
 - Local evidence — Both `python studio.py check --lesson APP-002` and `python studio.py check` passed with Black, Pylint, 96 foundation tests, 14 cumulative contracts, and two real Chromium tests. Coverage includes wrong passwords, duplicate and invalid signup, role injection, CSRF rejection, and copied-cookie replay.
 - [Issue #3](https://github.com/yungjorge/my-app-studio/issues/3) · Branch `app-002-secure-accounts`.
+- [Pull request #4](https://github.com/yungjorge/my-app-studio/pull/4).
