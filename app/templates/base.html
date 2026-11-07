@@ -20,8 +20,8 @@
     <nav aria-label="Main navigation">
       <a href="/#idea">The idea</a>
       {% if features.accounts %}
-        <a href="/dashboard">Member space</a>
-        {% if not current_user %}<a href="/login">Log in</a>{% endif %}
+        {% if current_user %}<a href="/dashboard">Dashboard</a>{% endif %}
+        {% if not current_user %}<a href="/login">Log in</a><a href="/signup">Sign up</a>{% endif %}
       {% else %}<a href="/#next">Get started</a>{% endif %}
       {% if features.roles and current_user and current_user.role == "admin" %}<a href="/admin">Admin</a>{% endif %}
     </nav>

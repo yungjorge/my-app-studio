@@ -54,3 +54,4 @@ code { overflow-wrap: anywhere; }
   .hero, .two-column { grid-template-columns: 1fr; gap: 1rem; }
   .hero { gap: 2rem; }
 }
+.page-title { font-size: clamp(2rem, 5vw, 3.25rem); max-width: none; }
