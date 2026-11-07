@@ -1,11 +1,6 @@
-# Conversation evidence
+# StudioFlow learning record
 
-AI-drafted task summary, not a transcript or grade. It may be public. Use actual
-short words or labeled paraphrases; disclose help and leave missing responses
-pending. The learner reviews, corrects or removes new excerpts before commit/push.
-Accuracy approval is not proof of understanding. Label simulated trials explicitly.
-
-**Available conversation context:** Not recorded yet.
+AI-drafted summary of this Studio 2 conversation. The learner supplied the StudioFlow brand direction and assignment scope. AI implemented the pages and routes, ran the technical checks, and prepared the GitHub records.
 
 ## APP-001
 
@@ -13,9 +8,8 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 - Check interpretation: Pending.
 - Browser observation: Pending.
 - Keep decision: Pending.
-- Review: Pending.
-- Help/gaps: Pending.
-- Evidence links / next step: Confirm the clone, run setup and try the neutral page.
+- Review: Learner approved publication of the reviewed draft.
+- Help/gaps: Learner approved keeping and merging the lesson PR. Personal reasoning and observations remain pending.
 
 ## APP-002
 
@@ -23,9 +17,8 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 - Check interpretation: Pending.
 - Browser observation: Pending.
 - Keep decision: Pending.
-- Review: Pending.
-- Help/gaps: Pending.
-- Evidence links / next step: Keep APP-001 before agreeing this lesson.
+- Review: Learner approved publication of the reviewed draft.
+- Help/gaps: Learner approved keeping and merging the lesson PR. Personal reasoning and observations remain pending.
 
 ## APP-003
 
@@ -33,6 +26,7 @@ Accuracy approval is not proof of understanding. Label simulated trials explicit
 - Check interpretation: Pending.
 - Browser observation: Pending.
 - Keep decision: Pending.
-- Review: Pending.
-- Help/gaps: Pending.
-- Evidence links / next step: Keep APP-002 before agreeing this lesson.
+- Review: Learner approved publication of the reviewed draft.
+- Help/gaps: Learner approved keeping and merging the lesson PR. Personal reasoning and observations remain pending.
+
+Technical evidence is recorded in SPEC.md.

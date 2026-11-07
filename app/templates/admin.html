@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ 'Administration' if user else 'Admin access required' }} · {{ brand.name }}{% endblock %}
+{% block content %}
+<section class="panel" aria-labelledby="admin-heading">
+  <p class="eyebrow">Restricted workspace</p>
+  {% if user %}
+    <h1 class="page-title" id="admin-heading">Administration</h1>
+    <p>Signed in as <strong>{{ user.username }}</strong>. You have access to the protected workspace.</p>
+    <p><a class="text-link" href="/api/admin">View administration status</a></p>
+  {% else %}
+    <h1 class="page-title" id="admin-heading">Admin access required</h1>
+    <p>This area is available to administrators. You can continue using your member dashboard.</p>
+  {% endif %}
+  <a class="text-link" href="/dashboard">Back to dashboard →</a>
+</section>
+{% endblock %}

@@ -1,6 +1,7 @@
 * { box-sizing: border-box; }
 :root { --muted: #b4c4db; --line: #34435e; --danger: #ffadbc; }
 body {
+  min-height: 100vh;
   margin: 0;
   background: radial-gradient(ellipse at 85% 14%, #192e52, transparent 38rem), var(--paper);
   color: var(--ink);
