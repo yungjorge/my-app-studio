@@ -8,3 +8,4 @@ StudioFlow serves students and developers managing personal projects. The Creato
 - Acceptance — The homepage renders the brand and SVG, the primary action reaches the next section, and keyboard navigation and the 390 px layout work in Chromium. Account routes are outside this lesson.
 - Local evidence — Both `python studio.py check --lesson APP-001` and `python studio.py check` passed with Black, Pylint, 96 foundation tests, two contract tests, and two real Chromium tests. Two foundation cases were skipped by the instructor suite on Windows.
 - [Issue #1](https://github.com/yungjorge/my-app-studio/issues/1) · Branch `app-001-studioflow-homepage`.
+- [Pull request #2](https://github.com/yungjorge/my-app-studio/pull/2).
